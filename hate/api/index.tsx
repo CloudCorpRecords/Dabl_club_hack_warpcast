@@ -11,7 +11,7 @@ import { GoogleGenerativeAI } from '@google/generative-ai';
 // };
 
 // Hardcoded Gemini API Key
-const apiKey = 'AIzaSyC3nb2XCEmyGwXN60kKCcOjpY5GVAHDKlM';
+const apiKey = 'AIzaSyC3nb2XCEmyGwXN60cOjpY5GVAHDKlM';
 const genAI = new GoogleGenerativeAI(apiKey);
 
 const jimmyJohnModel = genAI.getGenerativeModel({
